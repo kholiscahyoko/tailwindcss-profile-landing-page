@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="flex items-center justify-center">
+    <div class="bg-white mt-10 px-10 rounded-lg">
+      <div class="flex items-center justify-center pt-10 flex-col">
+        <img src="assets/img/pas 1x1.png" class="rounded-full w-32">
+        <h1 class="text-gray-800 font-semibold text-xl mt-5">Kholis Cahyoko</h1>
+        <h1 class="text-gray-500 text-sm text-center">Web Programmer, Father in Serang, Indonesia</h1>
+        <h1 class="text-gray-500 text-sm p-4 text-center">
+          IT Product Portal Developer at <a href="https://www.detik.com">DetikNetwork</a>
+        </h1>
+      </div>
+      <div class="flex items-center justify-center mt-3 mb-6 flex-col">
+        <h1 class="text-xs text-gray-500">Get Connected</h1>
+        <div class="flex mt-2" id="social-links">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>
+  <script>
+    customScript.init();
+  </script>
+</body>
+</html>
