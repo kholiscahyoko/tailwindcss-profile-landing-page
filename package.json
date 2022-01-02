@@ -1,0 +1,25 @@
+{
+  "name": "tailwindcss-profile-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/css/style.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kholiscahyoko/tailwindcss-profile-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kholiscahyoko/tailwindcss-profile-landing-page/issues"
+  },
+  "homepage": "https://github.com/kholiscahyoko/tailwindcss-profile-landing-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.1",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.8"
+  }
+}
