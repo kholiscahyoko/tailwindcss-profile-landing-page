@@ -42,7 +42,7 @@ customScript = {
     init : function(){
         var self = this;
         for (const socialKey in self.socials) {
-            document.getElementById("social-links").appendChild(self.createSocialIcon(self.socials[socialKey]));
+            // document.getElementById("social-links").appendChild(self.createSocialIcon(self.socials[socialKey]));
         }
     },
 
@@ -51,6 +51,7 @@ customScript = {
         node.src = obj.src;
         node.alt = obj.name;
         node.className = obj.class;
+        node.setAttribute('title',obj.name);
         node.onclick = function(){
             window.open(obj.url);
         };
